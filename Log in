@@ -1,0 +1,5 @@
+Discord log in
+const express = require("express");
+const app = express();
+const fs = require("fs");
+var discordIndexHTML = fs.readFileSync("client/index.html");
